@@ -1,0 +1,9 @@
+.wide{
+    width: 100%;
+}
+
+.vcenter{
+    position: relative;
+    top: .5rem;
+    /*margin-top: 0.2rem;*/
+}

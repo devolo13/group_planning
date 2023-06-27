@@ -12,11 +12,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Group Planner</title>
-<%--    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">--%>
-<%--    <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>--%>
-<%--    BOOTSTRAP LINK NEEDS CHANGED. CURRENTLY USING CDN LINK    --%>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
+    <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="/css/main.css">
     <script type="text/javascript" src="/js/app.js"></script>
 </head>
