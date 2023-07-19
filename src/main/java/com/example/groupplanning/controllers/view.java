@@ -64,6 +64,17 @@ public class view {
         return "home.jsp";
     }
 
+    @GetMapping("/create")
+    public String create(HttpSession session, Model model){
+        if (session.getAttribute("userId")  == null) {
+            session.invalidate();
+            return "redirect:/";
+        }
+        User user = new User();
+        model.addAttribute("newUser", user);
+        return "create.jsp";
+    }
+
     @GetMapping("/account")
     public String account(HttpSession session, Model model){
         if (session.getAttribute("userId")  == null) {
@@ -86,5 +97,11 @@ public class view {
 //        List<User> allUsers = userService.allUsers();
 //        session.setAttribute("allUsers", allUsers);
         return "search.jsp";
+    }
+
+    @GetMapping("/logout")
+    public String logout(HttpSession session){
+        session.invalidate();
+        return "redirect:/";
     }
 }

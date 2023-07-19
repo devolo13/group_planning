@@ -11,7 +11,7 @@
 <html data-bs-theme="dark">
 <head>
     <meta charset="UTF-8">
-    <title>Tacos</title>
+    <title>Group Planner</title>
     <link rel="stylesheet" href="/webjars/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
     <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>

@@ -7,3 +7,7 @@
     top: .5rem;
     /*margin-top: 0.2rem;*/
 }
+
+textarea{
+    resize: none;
+}
